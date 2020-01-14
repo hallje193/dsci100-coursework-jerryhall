@@ -26,37 +26,35 @@ Students will learn to perform their analysis using the [R programming language]
 ## Learning Outcomes
 By the end of the course, students will be able to:
 
-- Read data from a variety of common sources (`.csv` files, databases) into R.
+- Read data using computation from various sources (local and remote plain text files, spreadsheets and databases)
 - Wrangle data from their original format into a fit-for-purpose format.
-- Create, and interpret, meaningful tables and effective visualizations from wrangled data.
-- Apply, and interpret the output of, a simple classifier.
-- Make and evaluate predictions using a simple classifier.
+- Identify the most common types of research/statistical questions and map them to the appropriate type of data analysis.
+- Create, and interpret, meaningful tables from wrangled data.
+- Create, and interpret, impactful figures from wrangled data.
+- Apply, and interpret the output of simple classifier and regression models.
+- Make and evaluate predictions using a simple classifier and a regression model.
 - Apply, and interpret the output of, a simple clustering algorithm.
-- Apply, and interpret the output of, a regression model.
-- Make and evaluate predictions using a regression model.
 - Distinguish between in-sample prediction, out-of-sample prediction, and cross-validation.
-- Apply and interpret a bootstrap analysis in a regression context.
+- Calculate a point estimate in the context of statistical inference and explain how that relates to the population quantity being estimated.
 - Accomplish all of the above using workflows and communication strategies that are sensible,
 clear, reproducible, and shareable.
 
 ## Teaching Team
 
+*Note that your TAs may have class right before their DSCI100 office hours, so they may run a few minutes late. Please be patient!*
+
 | Position | Name  | Email | Office Hours | Office Location |
 |----------|-------|-------|--------------|-----------------|
 | Instructor  | [Trevor Campbell](https://trevorcampbell.me/) | trevor@stat.ubc.ca | Tuesday 5pm | HENN 200 or ESB 3116 |
 | Instructor | [Melissa Lee](https://www.stat.ubc.ca/users/melissa-lee) | melissa.lee@stat.ubc.ca | Wednesday 11 am | ESB 3164  |
-| TA | Daniel Alimohd| | TBD | TBD |
-| TA | Alex Chow| | TBD | TBD |
-| TA | Jordan Bourak| | TBD | TBD |
-| TA | Grandon Seto| | TBD | TBD |
-| TA | Yuru Liu| | TBD | TBD |
-| TA | Kevin Le| | TBD | TBD |
-| TA | Connor McDonald| | TBD | TBD |
-| TA | Michela Minerva| | TBD | TBD |
-| TA | Hayden McTavish | | TBD | TBD |
-
+| TA | Daniel Alimohd, Hayden McTavish| | Friday 11am | ESB3174 |
+| TA | Alex Chow, Yuru Liu| | Thursday 5pm | HENN200 |
+| TA | Jordan Bourak, Michela Minerva, Kevin Le| | Wednesday 4pm | ESB3174 |
+| TA | Grandon Seto, Connor McDonald| | Friday 5pm | ESB3174 |
 
 ## Assessment
+
+In each class (lecture and tutorial) there will be an assignment. Lecture worksheets are due **Wednesdays at 10pm**, and tutorial worksheets are due **Saturdays at 10pm**. To open the assignment, click the link (e.g. `worksheet_01`) from Canvas. To submit your assignment, just make sure your work is saved (File -> Save and Checkpoint to be sure) **on our server** (i.e., using the link from Canvas) before the deadline. Our server will automatically snapshot at the due date/time.
 
 ### Course breakdown
 
@@ -103,7 +101,7 @@ Chapter 8: Regression | Introduction to regression using K-nearest neighbours (k
 ### Late/Absence
 Regular attendance to lecture and tutorials is expected of students. Students who are unavoidably absent because of illness or other reasons should inform the instructor(s) of the course as soon as possible, preferably, prior to the start of the lecture/tutorial. Students who miss quizzes 1 or 2 or an assignment need to provide a self-declaration and make arrangements (e.g., schedule an oral make-up quiz) with the Instructor as soon as possible. Failing to present a declaration may result in a grade of zero.
 
-A late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences. 
+Late lecture and tutorial worksheets will receive a grade of 0. For other assessments, a late submission is defined as any work submitted after the deadline. For a late submission, the student will receive a 50% deducation of their grade for the first occurrence. Hence a maximum attainable grade for the first piece of work submitted late is 50%. Any additional pieces of work that are submitted late will receive a grade of 0 for subsequent occurrences.
 
 ### Autograder Policy
 Many of the questions in assignments are graded automatically by software. The grading computer has exactly the same hardware setup as the server that students work on. No assignment, when completed, should take longer than 5 minutes to run on the server. The autograder will automatically stop (time out) for each student assignment after a maximum of 5 minutes; **any ungraded questions at that point will receive a score of 0.**
